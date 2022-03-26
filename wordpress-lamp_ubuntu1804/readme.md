@@ -49,7 +49,7 @@ http_port: "80"
 ### 3. Run the Playbook
 
 ```command
-ansible-playbook -l [target] -i [inventory file] -u [remote user] playbook.yml
+ansible-playbook -l [target] -i [inventory file] -u [remote user] word-press-deploy.yml
 ```
 
 For more information on how to run this Ansible setup, please check this guide: [How to Use Ansible to Install and Set Up WordPress with LAMP on Ubuntu 18.04](https://www.digitalocean.com/community/tutorials/how-to-use-ansible-to-install-and-set-up-wordpress-with-lamp-on-ubuntu-18-04).
