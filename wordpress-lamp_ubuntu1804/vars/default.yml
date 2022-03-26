@@ -1,0 +1,14 @@
+---
+#System Settings
+php_modules: [ 'php-curl', 'php-gd', 'php-mbstring', 'php-xml', 'php-xmlrpc', 'php-soap', 'php-intl', 'php-zip' ]
+
+#MySQL Settings
+mysql_root_password: "root"
+mysql_db: "wordpress"
+mysql_user: "modafro"
+mysql_password: "root"
+
+#HTTP Settings
+http_host: "{{ hostname }}"
+http_conf: "{{ hostname }}.conf"
+http_port: "80"

@@ -1,0 +1,2 @@
+clientx ansible_host=192.168.123.126 ansible_user=modafro ansible_password=5265104d hostname=newClient1 ansible_become_password=5265104d
+clienty ansible_host=192.168.123.153 ansible_user=modafro ansible_password=5265104d hostname=newClient2 ansible_become_password=5265104d
